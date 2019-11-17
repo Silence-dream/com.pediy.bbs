@@ -1,0 +1,108 @@
+body {
+    background-image: url(../images/body_bg.jpg);
+}
+
+.top-nav-T {
+    background-color: #fafafa;
+}
+
+.top-nav {
+    height: 64px;
+    line-height: 64px;
+    border: 1px solid red;
+}
+
+.top-nav-left {
+    float: left;
+}
+
+/* 看雪logo */
+.top-nav-left a:first-child img {
+    float: left;
+    width: 64.28px;
+    height: 25px;
+    margin-top: 19.5px;
+    margin-right: 14px;
+}
+
+/* 首页到发现 */
+.top-nav-bar {
+    float: left;
+}
+
+
+.top-nav-bar li {
+    float: left;
+    padding: 0 14px;
+}
+
+.top-nav-bar li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.top-nav-bar li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+}
+
+.top-nav-bar-menu::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid #757575;
+    border-left: 5px solid transparent;
+    border-bottom: 5px none transparent;
+    border-right: 5px solid transparent;
+}
+
+/* 搜索框模块 */
+.top-nav-search {
+    float: left;
+    height: 32px;
+    margin-top: 16px;
+    margin-left: 20px;
+    border: 1px solid #cccccc;
+}
+
+/* 搜索框 */
+.top-nav-search input:first-child {
+    float: left;
+    width: 121px;
+    height: 32px;
+    border: none;
+    /* border: 1px solid #cccccc; */
+}
+
+/* 搜索按钮 */
+.top-nav-search button {
+    float: left;
+    width: 30px;
+    height: 32px;
+    background-color: #dddddd;
+    border: none;
+}
+
+.top-nav-right {
+    float: right;
+}
+
+/* 登陆模块 */
+.top-nav-right span:first-child {
+    margin-right: 7px;
+}
+
+.top-nav-right span a {
+    padding: 10px 16px;
+}
+
+.top-nav-right span:first-child a {
+    border: 1px solid #0099ee;
+    color: #0099ee;
+}
+
+.top-nav-right span:last-child a {
+    color: #ffffff;
+    background-color: #0099ee;
+}
