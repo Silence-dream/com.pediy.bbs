@@ -2,14 +2,17 @@ body {
     background-image: url(../images/body_bg.jpg);
 }
 
+
 .top-nav-T {
     background-color: #fafafa;
+    box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
 }
 
 .top-nav {
     height: 64px;
     line-height: 64px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+
 }
 
 .top-nav-left {
@@ -28,33 +31,44 @@ body {
 /* 首页到发现 */
 .top-nav-bar {
     float: left;
+    position: relative;
 }
 
 
-.top-nav-bar li {
+.top-nav-bar>li {
     float: left;
-    padding: 0 14px;
+    /* padding: 0 14px; */
 }
 
-.top-nav-bar li:hover {
+.top-nav-bar>li a {
+
+    padding: 6px 14px;
+}
+
+.top-nav-bar>li:hover a {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 
-.top-nav-bar li a {
+.top-nav-bar>li a {
     font-size: 16px;
     font-weight: 700;
     color: #757575;
 }
 
-.top-nav-bar-menu::after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 5px solid #757575;
-    border-left: 5px solid transparent;
-    border-bottom: 5px none transparent;
-    border-right: 5px solid transparent;
+/* 发现的下拉菜单 */
+.top-nav-bar ul {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 100px;
+    /* height: 470px; */
+    text-align: center;
+    border: 1px solid #f0f6fa;
+}
+
+.top-nav-bar ul li {
+    background-color: #ffffff;
 }
 
 /* 搜索框模块 */

@@ -15,6 +15,7 @@
 
 /* 版心样式 */
 .container {
+  position: relative;
   width: 1112px;
   margin: 0 auto;
 }
