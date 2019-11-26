@@ -1,5 +1,6 @@
 body {
     background-image: url(../images/body_bg.jpg);
+    height: 10000px;
 }
 
 
@@ -40,35 +41,56 @@ body {
     /* padding: 0 14px; */
 }
 
-.top-nav-bar>li a {
+.top-nav-bar>li>a {
 
     padding: 6px 14px;
 }
 
-.top-nav-bar>li:hover a {
+.top-nav-bar>li:hover>a {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 
-.top-nav-bar>li a {
+.top-nav-bar>li>a {
     font-size: 16px;
     font-weight: 700;
     color: #757575;
 }
 
 /* 发现的下拉菜单 */
+
+
 .top-nav-bar ul {
+    display: none;
     position: absolute;
-    top: 48px;
-    right: 0;
+    top: 55px;
+    right: -8px;
     width: 100px;
     /* height: 470px; */
     text-align: center;
     border: 1px solid #f0f6fa;
 }
 
-.top-nav-bar ul li {
+.top-nav-find li {
     background-color: #ffffff;
+}
+
+.top-nav-find a {
+    display: block;
+    width: 100px;
+    height: 64px;
+    /* background-color: red; */
+}
+
+.top-nav-bar ul li:hover,
+.top-nav-bar ul li:hover a {
+    background-color: #f3f3f3;
+    color: #0099ee;
+}
+
+.top-nav-bar>li:nth-child(9):hover ul {
+    display: block;
+    /* background-color: red; */
 }
 
 /* 搜索框模块 */
