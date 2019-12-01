@@ -1,5 +1,7 @@
 body {
+    background-color: #f0f5f8;
     background-image: url(../images/body_bg.jpg);
+    background-repeat: no-repeat;
     height: 10000px;
 }
 
@@ -39,6 +41,7 @@ body {
 .top-nav-bar>li {
     float: left;
     /* padding: 0 14px; */
+    height: 64px;
 }
 
 .top-nav-bar>li>a {
@@ -142,4 +145,90 @@ body {
 .top-nav-right span:last-child a {
     color: #ffffff;
     background-color: #0099ee;
+}
+
+.bbs-main {
+    margin-top: 20px;
+}
+
+.online {
+    margin-bottom: 12px;
+}
+
+.text-online {
+    color: #868e96;
+    margin-left: 8px;
+}
+
+.text-online:first-child {
+    margin-left: 0;
+}
+
+.text-online-b {
+    color: #000000;
+    font-weight: bolder;
+    margin-left: 8px;
+}
+
+.online .text-online:nth-child(3) .text-online-b {
+    color: #c9303e;
+}
+
+.online-main {
+    background-color: #fdfefe;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.new-main {
+    float: left;
+}
+
+.new-reply {
+    float: left;
+}
+
+.new-cream {
+    float: left;
+}
+
+
+.new-main,
+.new-reply,
+.new-cream {
+    margin-left: 20px;
+}
+
+.new-main p,
+.new-reply p,
+.new-cream p {
+    margin-top: 7px;
+    margin-bottom: 5.6px;
+    height: 13px;
+    font-weight: bolder;
+}
+
+.new-cream p i {
+    vertical-align: top;
+}
+
+.banner-content {
+    padding: 3.5px 0 3.5px 5.180px;
+}
+
+.banner-content {
+    padding: 5px 0;
+}
+
+.banner-content a {
+    display: inline-block;
+    width: 305px;
+}
+
+.content-vary {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
 }
