@@ -8,7 +8,7 @@ body {
 
 .top-nav-T {
     background-color: #fafafa;
-    box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+    box-shadow: 3px 5px 10px -4px rgba(0, 0, 0, .3);
 }
 
 .top-nav {
@@ -35,6 +35,7 @@ body {
 .top-nav-bar {
     float: left;
     position: relative;
+    z-index: 1;
 }
 
 
@@ -148,7 +149,7 @@ body {
 }
 
 .bbs-main {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 .online {
@@ -178,6 +179,7 @@ body {
     background-color: #fdfefe;
     border-radius: 5px;
     border: 1px solid #dee2e6;
+    box-shadow: 2px 3px 0 0 rgba(0, 0, 0, 0.4);
 }
 
 .new-main {
@@ -197,6 +199,7 @@ body {
 .new-reply,
 .new-cream {
     margin-left: 20px;
+    width: 31.533333%;
 }
 
 .new-main p,
@@ -212,17 +215,40 @@ body {
     vertical-align: top;
 }
 
-.banner-content {
+/* 备用代码 */
+/* .banner-content {
     padding: 3.5px 0 3.5px 5.180px;
-}
+} */
 
 .banner-content {
-    padding: 5px 0;
+    padding: 4px 0;
+}
+
+.banner-content:hover {
+    background-color: #f5f5f5;
+}
+
+
+.time-vary {
+    float: right;
+}
+
+.title-vary:hover {
+    border-bottom: 1px solid #000;
 }
 
 .banner-content a {
     display: inline-block;
-    width: 305px;
+    /* width: 305px; */
+}
+
+.banner-content a>i {
+    color: #999b9b;
+    vertical-align: middle;
+}
+
+.time-vary {
+    color: #9ea4ab;
 }
 
 .content-vary {
@@ -231,4 +257,194 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 150px;
+}
+
+.notice {
+    margin-top: 21px;
+    background-color: #fff;
+    /* border: 1px solid #bcc6c9; */
+}
+
+.notice-left {
+    float: left;
+    height: 37px;
+}
+
+
+
+.notice-left-content-left {
+    float: left;
+    margin-left: 6px;
+}
+
+.notice-left-content {
+    line-height: 37px;
+    border: 1px solid #bcc6c9;
+    width: 957px;
+    height: 37px;
+    box-sizing: border-box;
+}
+
+.notice-left-content-right {
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 240px;
+    margin-left: 12px;
+}
+
+.notice-right {
+    float: right;
+    font-size: 12px;
+    width: 183px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    border: 1px solid #BCC6C9;
+    background-color: #f9fcff;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    box-sizing: border-box;
+}
+
+.notice-left-content div:nth-child(3),
+.notice-left-content div:nth-child(4) {
+    margin-left: 50px;
+}
+
+.notice-left-content-right a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.notice-right img {
+    width: 13px;
+}
+
+
+
+/* 学习园地通用模块 */
+
+
+.card {
+    margin-top: 14px;
+    box-shadow: 2px 3px 0 0 rgba(0, 0, 0, .3);
+    border-radius: 5px;
+}
+
+.card-body img {
+    width: 48px;
+}
+
+
+
+.card-headr h2 {
+    color: #454d55;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid #BCC6C9;
+    background-image: linear-gradient(0deg, #d1d5d6, #fcfdfd);
+    border-radius: 5px;
+}
+
+.card-body {
+    background-color: #fafafa;
+    padding: 1.25rem;
+}
+
+.class-one,
+.class-two {
+    float: left;
+    width: 506px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.class-one img,
+.class-two img {
+    float: left;
+    /* height: 60px; */
+}
+
+.card-content b {
+    float: left;
+}
+
+.card-content {
+    height: 14px;
+}
+
+.card-content img {
+    width: 40px;
+    height: 14px;
+}
+
+.card-right-content {
+    float: left;
+    margin-left: 20px;
+}
+
+.card-content,
+.card-suggest {
+    padding: 10px 0;
+
+}
+
+
+.card-title a {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.card-content b a {
+    font-weight: bolder;
+}
+
+.card-theme,
+.card-bm span,
+.card-bm a,
+.card-suggest {
+    font-size: 12px;
+    color: #868e96cc;
+}
+
+
+.card-title a:hover,
+.card-content b a:hover {
+    border-bottom: 1px solid #0f243a;
+}
+
+.card-bm span a:hover {
+    border-bottom: 1px solid #868e96cc;
+}
+
+
+
+.real-time {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #bcc6c9;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px -4px rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.real-time-number {
+    float: left;
+    width: 80px;
+    color: #fff;
+    background-color: #0099ee;
+    text-align: center;
+
+    height: 30px;
+}
+
+.real-time-people {
+    float: left;
+    width: calc(100% - 80px);
+
+    background-color: #fff;
 }
