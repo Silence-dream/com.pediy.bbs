@@ -1,0 +1,170 @@
+.user-logo {
+    width: 833px;
+    height: 653px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.user-logo-title h2 {
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    border: none;
+    width: 410px;
+    height: 42px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    box-shadow: 3px 3px 0 0 rgb(31, 5, 255);
+    transition: all 0.4s;
+}
+
+.form-phone {
+    width: 410px;
+    height: 42px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    line-height: 42px;
+}
+
+.form-phone-left {
+    float: left;
+    width: calc(410px - 99px);
+    height: 42px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.form-phone-left input {
+    border: none;
+    width: calc(410px - 99px);
+    height: 42px;
+    padding: 0 5px;
+}
+
+.form-phone-right {
+    float: left;
+    width: 98px;
+    height: 42px;
+    border-left: 1px solid #ced4da;
+}
+
+.form-phone-right a {
+    display: block;
+    color: #868e96;
+}
+
+.identifying-code {
+    width: 410px;
+    height: 42px;
+    margin: 0 auto;
+    background-color: #dbddde;
+    border: 1px solid #e4e7eb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.identifying-code .slider {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #cbcdd1;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.identifying-code .fill {
+    float: left;
+    width: calc(410px - 42px);
+    height: 42px;
+    line-height: 40px;
+    background-color: #f7f9fa;
+    border-radius: 5px;
+}
+
+.identifying-code .slider i {
+    line-height: 40px;
+}
+
+.form-buttom {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form-buttom button {
+    width: 413px;
+    height: 42px;
+    background-color: #0099ee;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+.line {
+    display: inline-block;
+    width: 150px;
+    border-top: 1px solid #ccc;
+}
+
+.third-party-top-content {
+    display: inline;
+    color: #868e96;
+    vertical-align: -4px;
+}
+
+.wechat-github {
+    margin-top: 25px;
+}
+
+.wechat-github img {
+    width: 44px;
+}
+
+.register {
+    box-sizing: border-box;
+    width: 410px;
+    height: 37px;
+    margin: 28px auto;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 5px;
+}
+
+.register a {
+    color: #868e96;
+}
+
+.agreement {
+    width: 350px;
+    height: 37px;
+    margin: 0 auto;
+    color: #868e96;
+}
+
+.agreement a {
+    color: #0099ee;
+    line-height: 20px;
+}
