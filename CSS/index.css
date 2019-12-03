@@ -2,7 +2,7 @@ body {
     background-color: #f0f5f8;
     background-image: url(../images/body_bg.jpg);
     background-repeat: no-repeat;
-    height: 10000px;
+    /* height: 10000px; */
 }
 
 
@@ -383,6 +383,7 @@ body {
 .card-right-content {
     float: left;
     margin-left: 20px;
+    width: 438px;
 }
 
 .card-content,
@@ -445,6 +446,83 @@ body {
 .real-time-people {
     float: left;
     width: calc(100% - 80px);
-
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     background-color: #fff;
+}
+
+.ad {
+    margin-top: 30px;
+    /* background-color: hotpink; */
+}
+
+.ad-images {
+    width: calc(540px * 2);
+    margin: 0 auto;
+}
+
+.ad a {
+    position: relative;
+    float: left;
+    margin-left: 50%;
+    width: 540px;
+    height: 76px;
+    margin: 0 auto;
+}
+
+.ad a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 540px;
+    height: 76px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
+.ad a:hover::after {
+    background: none;
+    transition: all 0.4s;
+}
+
+.ad img {
+    float: left;
+    width: 540px;
+    height: 76px;
+}
+
+/* 底部 */
+footer {
+    color: #868e96;
+    background-color: #3b4348;
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+footer a {
+    font-size: 12px;
+    color: #868e96;
+}
+
+footer a:hover {
+    color: #868e96;
+    border-bottom: 1px solid #868e96;
+}
+
+.footer-left {
+    float: left;
+    padding: 17px 0;
+}
+
+.footer-right {
+    float: right;
+    padding: 17px 0;
+}
+
+.footer-left-top,
+.footer-right-top {
+    padding-bottom: 8px;
 }
