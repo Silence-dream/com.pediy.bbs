@@ -1,0 +1,95 @@
+article {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+/* 推荐文章左边 */
+.re-article {
+    width: 840px;
+    height: 500px;
+    /* background-color: hotpink; */
+}
+
+/* 标题 */
+
+.re-article-top h2 {
+    float: left;
+    font-size: 20px;
+    padding: 23px 11px;
+}
+
+.re-article-top a {
+    padding-bottom: 10px;
+}
+
+.re-article-top a:hover,
+.re-article-top a:hover h2 {
+    color: #0099ee;
+    border-bottom: 2px solid #0099ee;
+}
+
+/* 标题内容 */
+.re-article-bottom {}
+
+/* 左浮动 */
+.re-article-bottom-content-left {
+    float: left;
+}
+
+.re-article-bottom-content {
+    border-bottom: 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.re-article-bottom-content-left img {
+    width: 160px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+/* 右浮动 */
+.re-article-bottom-content-right {
+    float: left;
+    width: calc(840px - 180px);
+}
+
+
+.re-article-bottom-content-right h4 {
+    font-size: 20px;
+}
+
+.re-article-bottom-content-right p {
+    font-size: 12px;
+    color: #888888;
+    margin: 15px 0;
+}
+
+.re-article-bottom-content-right p::after {
+    content: "...";
+}
+
+.re-article-bottom-content-right-bottom img {
+    width: 1.3rem;
+    height: 1.3rem;
+    vertical-align: middle;
+}
+
+.re-article-bottom-content-right-bottom span:first-child a {
+    color: #0099ee;
+    font-size: 10px;
+}
+
+.re-article-bottom-content-right-bottom span:last-child {
+    float: right;
+    color: #888888;
+}
+
+aside {
+    width: 280px;
+    height: 100px;
+    background-color: skyblue;
+}
