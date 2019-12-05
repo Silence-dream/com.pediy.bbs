@@ -1,0 +1,153 @@
+.header-nav {
+    text-align: right;
+    height: 32px;
+    line-height: 32px;
+    /* background-color: pink; */
+    background: #ffffff url(../images/header_bg.jpg) repeat-x;
+}
+
+.header-nav a {
+    display: inline-block;
+    margin: 0 22px;
+    height: 25px;
+}
+
+.header-nav a:last-child {
+    margin-right: 120px;
+}
+
+/* 给首页----关于我们的效果 */
+.header-nav a:hover {
+    color: #0990c8;
+    border-bottom: 1px solid #0990c8;
+}
+
+
+/* banner */
+.banner {
+    width: 1920px;
+    height: 680px;
+    background-image: url(../images/banner.jpg);
+}
+
+.banner-logo img {
+    margin-top: 100px;
+}
+
+.banner-title img {
+    margin-top: 20px;
+}
+
+.banner-content {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.banner-content span {
+    padding: 0 10px;
+}
+
+.banner-a {
+    width: 170px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.banner-a a {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+
+/* 看雪众测 */
+
+
+
+.home-kanxue {
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.home-kanxue-title {
+    color: #4e6f85;
+    font-size: 20px;
+    padding-top: 88px;
+}
+
+.home-kanxue-content {
+    color: #96b2d4;
+    font-size: 14px;
+    line-height: 24px;
+    width: 595px;
+    /* text-align: left; */
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.home-kanxue-bottom {
+    margin-top: 100px;
+}
+
+.home-kanxue-bottom div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/business_num.png);
+    background-repeat: no-repeat;
+    margin: 0px 48px;
+}
+
+.home-kanxue-bottom div p {
+    margin-top: calc(50% - 22px);
+    font-size: 14px;
+    color: #3da2f1;
+}
+
+.home-kanxue-bottom div span {
+    display: block;
+    margin-top: 22px;
+    font-size: 12px;
+    color: #96b2d4;
+}
+
+.home-kanxue-bottom .home-kanxue-bottom-1 {
+    margin-left: 0;
+}
+
+/* 认证看雪专家 */
+
+
+.kanxue-expert {
+    height: 540px;
+    background: url(../images/authen_bg.jpg) repeat-x;
+    background-position: center;
+    text-align: center;
+}
+
+.kanxue-expert-middle img {
+    margin-top: 90px;
+}
+
+.kanxue-expert-middle button {
+    display: block;
+    width: 107px;
+    height: 34px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.kanxue-expert-middle p {
+    color: #96b2d4;
+}
