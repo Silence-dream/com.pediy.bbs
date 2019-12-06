@@ -1,3 +1,12 @@
+a {
+    /* 取消a标签的用户代理让a标签可以继承 */
+    color: inherit;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
 .header-nav {
     text-align: right;
     height: 32px;
@@ -25,9 +34,10 @@
 
 /* banner */
 .banner {
-    width: 1920px;
+    /* width: 1920px; */
     height: 680px;
     background-image: url(../images/banner.jpg);
+    background-repeat: repeat-x;
 }
 
 .banner-logo img {
@@ -71,7 +81,7 @@
 
 .home-kanxue {
     text-align: center;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
 }
 
 .home-kanxue-title {
@@ -150,4 +160,69 @@
 
 .kanxue-expert-middle p {
     color: #96b2d4;
+}
+
+
+/* 最新众测项目 */
+
+.new-public-test {
+    text-align: center;
+    color: #4e6f85;
+
+}
+
+.new-publice-test-title h2 {
+    font-size: 21px;
+    padding: 40px 0 30px;
+}
+
+.new-publice-test-content li {
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px 0 25px 18px;
+    text-align: left;
+    border-bottom: 1px solid #daeafc;
+}
+
+.new-publice-test-content a:hover {
+    color: #0097DD;
+    text-decoration: underline;
+}
+
+.new-publice-test-content a b {
+    color: #4e6f85;
+}
+
+.new-publice-test-content span {
+    color: #76b2f2;
+}
+
+.new-publice-test-bottom {
+    text-align: right;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #0097DD;
+}
+
+
+/* 合作伙伴 */
+.partner {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.partner h2 {
+    color: #4e6f85;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.partner-content img {
+    float: left;
+    padding-left: 64px;
+}
+
+.partner-content img:first-child {
+    padding-left: 0;
 }
