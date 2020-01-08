@@ -1,2 +1,2 @@
 # com.pediy.bbs
-HTML+CSS项目:看雪论坛
+PC端项目:看雪论坛
